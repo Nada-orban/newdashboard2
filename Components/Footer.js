@@ -17,7 +17,7 @@ function Footer() {
             <Grid item xs={12} md={8}>
 
                 <Typography variant="h6" >
-                    @ 2021, Made with < FavoriteIcon sx={{ color: "red" }} />  by Simmmple&Creative Timfor a better web
+                    @ 2021, Made with < FavoriteIcon sx={{ color: "red" }} />  by Nada samir
                 </Typography>
 
             </Grid>
