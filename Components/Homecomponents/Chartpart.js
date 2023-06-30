@@ -46,7 +46,7 @@ function Trakingdetails() {
                 <Card xs={{ position: "relative" }} className={styles.card} sx={{ bgcolor: "primary.main", color: "text.primary", height: "100%", }}>
                     <CardContent >
                         <Typography variant='h6' component="h6">Sales Quantity</Typography>
-                        <Box height="30vh" width="100%">
+                        <Box height="30vh" width="100%" mt="20px">
                             <Barchart2 />
                         </Box>
 

@@ -59,7 +59,7 @@ function Projecttable
                 <Card xs={{ position: "relative" }} className={styles.card} sx={{ bgcolor: "primary.main", color: "text.primary", height: "100%", }}>
                     <CardContent >
                         <Typography variant='h5' component="h5">Sales Quantity</Typography>
-                        <Box height="40vh" width="100%">
+                        <Box height="40vh" width="100%" mt="30px"> 
                             <Linechart2 />
                         </Box>
 
