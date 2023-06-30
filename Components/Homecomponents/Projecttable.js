@@ -30,7 +30,7 @@ import SendIcon from '@mui/icons-material/Send';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import StarBorder from '@mui/icons-material/StarBorder';
-// import Linechart from '../Chart/Linechart'
+import Linechart2 from '../Chart/Linechart2'
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -60,7 +60,7 @@ function Projecttable
                     <CardContent >
                         <Typography variant='h5' component="h5">Sales Quantity</Typography>
                         <Box height="40vh" width="100%">
-                            {/* <Linechart /> */}
+                            <Linechart2 />
                         </Box>
 
                     </CardContent>

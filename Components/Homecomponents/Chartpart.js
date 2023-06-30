@@ -16,8 +16,8 @@ import Paper from '@mui/material/Paper';
 import { blue } from '@mui/material/colors';
 import Image from 'next/image'
 import { styled, useTheme, alpha } from '@mui/material/styles';
-import Barchart from '../Chart/Barchart';
-import Piechart from '../Chart/Piechart';
+import Barchart2 from '../Chart/Barchart2';
+import Piechart2 from '../Chart/Piechart2';
 import Progresscircle from '../Progresscircle';
 
 
@@ -47,7 +47,7 @@ function Trakingdetails() {
                     <CardContent >
                         <Typography variant='h6' component="h6">Sales Quantity</Typography>
                         <Box height="30vh" width="100%">
-                            <Barchart />
+                            <Barchart2 />
                         </Box>
 
                     </CardContent>
@@ -59,7 +59,7 @@ function Trakingdetails() {
                     <CardContent >
                         <Typography variant='h6' component="h6">Pie Chart</Typography>
                         <Box height="30vh" width="100%">
-                            <Piechart />
+                            <Piechart2 />
                         </Box>
                     </CardContent>
                 </Card>
